@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    font-size: 16px;
+    font-family: arial, geogia,helvetica, serif,sans-serif;
+    box-sizing: border-box;
+}
+    
+
+
+h1{
+    text-align: center;
+    font-size: 65px;
+}
+div {
+    height: 600px;
+    margin-top: 40px;
+}
+.first, .second, .third{
+    background-color: grey;
+    border: 2px solid black;
+    width: 90%;
+    height: 150px;
+    margin-right: auto;
+    margin-left: auto ;
+    padding: 5px;
+    padding-top: 40px;
+    position: relative;
+}
+.pink {
+    background-color: pink;
+    width: 150px;
+    text-align: center;
+    font-size: 25px;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.red {
+    background-color: red;
+    width: 150px;
+    text-align: center;
+    font-size: 25px;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.orange {
+    background-color: orange;
+    width: 150px;
+    font-size: 25px;
+    text-align: center;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+/******* frame work *******/
+div {
+    width: 100%;
+}
+@media (min-width: 992px){
+    .large{
+        float:left;
+        margin: 0.6%;
+        border : 2px solid black; 
+    }
+    .large{
+        width: 32%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .medium{
+        float: left;
+        margin: 0.6%;
+    }
+    .medium{
+        width: 48%;
+    }
+    .medium1{
+        clear: left;
+        margin: 0.6%;
+        width: 97%;
+    }
+}
+@media (max-width: 767px){
+.small{
+    margin-bottom: 10px;
+}
+}
+
+
